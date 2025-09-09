@@ -1,0 +1,3 @@
+# requirements.txt (clean version for publication)
+urllib3
+pytest

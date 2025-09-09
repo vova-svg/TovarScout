@@ -1,0 +1,11 @@
+# docker-compose.yml (clean version for publication)
+version: '3.8'
+services:
+  tovarscout:
+    build: .
+    container_name: tovarscout
+    environment:
+      - TELEGRAM_TOKEN=your-telegram-token-here
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
