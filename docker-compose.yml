@@ -1,4 +1,4 @@
-# docker-compose.yml (clean version for publication)
+# docker-compose.yml 
 version: '3.8'
 services:
   tovarscout:
