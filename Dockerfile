@@ -1,4 +1,4 @@
-# Dockerfile (clean version for publication)
+# Dockerfile 
 FROM python:3.11-slim
 WORKDIR /app
 COPY TovarScout.py ./TovarScout.py
